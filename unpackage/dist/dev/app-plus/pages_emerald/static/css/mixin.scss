@@ -1,0 +1,45 @@
+@mixin hair-line-b($color){
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: $color;
+    display: block;
+    z-index: 10;
+    transform-origin: 50% 100%;
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+      transform: scaleY(0.5);
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+      transform: scaleY(0.33);
+    }
+  }
+}
+
+@mixin hair-line-t($color){
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: auto;
+    right: auto;
+    top: 0;
+    height: 1px;
+    width: 100%;
+    background-color: $color;
+    display: block;
+    z-index: 10;
+    transform-origin: 50% 100%;
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+      transform: scaleY(0.5);
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+      transform: scaleY(0.33);
+    }
+  }
+}

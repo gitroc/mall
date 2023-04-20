@@ -1,0 +1,54 @@
+/* pages/reg/reg.wxss */
+
+.form-body {
+    margin-bottom: 15px;
+}
+
+.form-body .row {
+    border-bottom: 1upx solid #efefef;
+    color: #353535;
+    height: 50px;
+    line-height: 50px;
+}
+
+.form-body .row input {
+    margin-top: 12px;
+}
+
+.btn-captcha {
+    border-radius: 3px;
+}
+
+.btn-block {
+    width: 100%;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 86rpx;
+}
+
+.btn-submit {
+    background-color: #439057;
+    border-color: #439057;
+}
+
+.btn-auth {
+    background-color: #439057;
+    border-color: #439057;
+}
+
+.btn-reg,
+.btn-login {
+    color: #353535;
+}
+
+image {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 15px auto;
+}
